@@ -23,14 +23,6 @@ matrix:
     - env: ADDITIONAL_TESTS_DIR=./tests/ios
       <<: *_ios
 
-    # many tests with saucelabs
-    - env: PLATFORM=ios-11.3
-      <<: *_ios
-    - env: PLATFORM=ios-12.0
-      <<: *_ios
-    - env: PLATFORM=ios-12.2
-      <<: *_ios
-
 before_install:
   # manually install Node for `language: android`
   - if [[ "$PLATFORM" =~ android ]]; then nvm install $TRAVIS_NODE_VERSION; fi 
