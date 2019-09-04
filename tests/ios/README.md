@@ -17,7 +17,7 @@
 #         under the License.
 -->
 
-# iOS Tests for CDVWKWebViewEngine
+# iOS Tests for BPRUIWebViewEngine
 
 You need to install `node.js` to pull in `cordova-ios`.
 
@@ -30,8 +30,8 @@ First install cordova-ios:
 
 # Testing from Xcode
 
-1. Launch the `CDVWKWebViewEngineTest.xcworkspace` file.
-2. Choose "CDVWKWebViewEngineLibTests" from the scheme drop-down menu
+1. Launch the `BPRUIWebViewEngineTest.xcworkspace` file.
+2. Choose "BPRUIWebViewEngineLibTests" from the scheme drop-down menu
 3. Click and hold on the `Play` button, and choose the `Wrench` icon to run the tests
 
 
