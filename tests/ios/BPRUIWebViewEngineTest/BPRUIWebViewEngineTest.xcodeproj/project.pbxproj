@@ -16,6 +16,7 @@
 		7EA87C392320490F00998492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C382320490F00998492 /* UIKit.framework */; };
 		7EA87C3B2320491400998492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C3A2320491400998492 /* Foundation.framework */; };
 		7EA87C3C2320493800998492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C382320490F00998492 /* UIKit.framework */; };
+		7EA87C60232068B500998492 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C592320683A00998492 /* libCordova.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA87C60232068B500998492 /* libCordova.a in Frameworks */,
 				7EA87C3B2320491400998492 /* Foundation.framework in Frameworks */,
 				7EA87C392320490F00998492 /* UIKit.framework in Frameworks */,
 				7EA87C16232047A400998492 /* libBPRUIWebViewEngineTest.a in Frameworks */,
