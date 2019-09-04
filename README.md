@@ -24,7 +24,7 @@
 Cordova UIWebView Engine
 ======
 
-This plugin makes `Cordova` use the `UIWebView` component instead of the default `UIWebView` component.
+This plugin makes `Cordova` use the `UIWebView` component instead of the default `WKWebView` component.
 
 Installation
 -----------
