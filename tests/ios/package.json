@@ -8,6 +8,6 @@
         "cordova-ios": "*"
     },
     "scripts": {
-        "test": "xcodebuild test -workspace BPRUIWebViewEngineTest.xcworkspace -scheme BPRUIWebViewEngineLibTests -destination 'platform=iOS Simulator,name=iPhone 5' -xcconfig test.xcconfig"
+        "test": "xcodebuild test -workspace BPRUIWebViewEngineTest.xcworkspace -scheme BPRUIWebViewEngineLibTests -destination 'platform=iOS Simulator,name=iPhone 8' -xcconfig test.xcconfig"
     }
 }
