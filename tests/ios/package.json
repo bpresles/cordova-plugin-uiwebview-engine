@@ -1,0 +1,13 @@
+{
+    "name": "cordova-plugin-uiwebview-engine-test-ios",
+    "version": "1.0.0",
+    "description": "iOS Unit Tests for cordova-plugin-uiwebview-engine Plugin",
+    "author": "Bertrand Presles",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-ios": "*"
+    },
+    "scripts": {
+        "test": "xcodebuild test -workspace BPRUIWebViewEngineTest.xcworkspace -scheme BPRUIWebViewEngineLibTests -destination 'platform=iOS Simulator,name=iPhone 5' -xcconfig test.xcconfig"
+    }
+}
