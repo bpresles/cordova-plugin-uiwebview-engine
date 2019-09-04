@@ -19,7 +19,7 @@
  *
 */
 
-/* global require, module, atob, document */
+/* global atob */
 
 /**
  * Creates a gap bridge iframe used to notify the native code about queued
@@ -139,8 +139,8 @@ function proxyChanged () {
     var cexec = cordovaExec();
 
     return (execProxy !== cexec && // proxy objects are different
-            iOSExec !== cexec      // proxy object is not the current iOSExec
-            );
+            iOSExec !== cexec // proxy object is not the current iOSExec
+    );
 }
 
 // CB-10106
