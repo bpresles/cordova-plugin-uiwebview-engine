@@ -16,7 +16,6 @@
 		7EA87C392320490F00998492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C382320490F00998492 /* UIKit.framework */; };
 		7EA87C3B2320491400998492 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C3A2320491400998492 /* Foundation.framework */; };
 		7EA87C3C2320493800998492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C382320490F00998492 /* UIKit.framework */; };
-		7EA87C462320499D00998492 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA87C432320496700998492 /* libCordova.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +26,16 @@
 			remoteGlobalIDString = 7EA87BE5232045CC00998492;
 			remoteInfo = BPRUIWebViewEngineTest;
 		};
-		7EA87C422320496700998492 /* PBXContainerItemProxy */ = {
+		7EA87C582320683A00998492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7EA87C3D2320496700998492 /* CordovaLib.xcodeproj */;
+			containerPortal = 7EA87C532320683A00998492 /* CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 68A32D7114102E1C006B237C;
 			remoteInfo = CordovaLib;
 		};
-		7EA87C442320496700998492 /* PBXContainerItemProxy */ = {
+		7EA87C5A2320683A00998492 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7EA87C3D2320496700998492 /* CordovaLib.xcodeproj */;
+			containerPortal = 7EA87C532320683A00998492 /* CordovaLib.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
@@ -71,7 +70,7 @@
 		7EA87C31232048B600998492 /* BPRUIWebViewEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPRUIWebViewEngine.m; path = ../../../src/ios/BPRUIWebViewEngine.m; sourceTree = "<group>"; };
 		7EA87C382320490F00998492 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7EA87C3A2320491400998492 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7EA87C3D2320496700998492 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "../../../../cordova-ios/CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
+		7EA87C532320683A00998492 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = "../node_modules/cordova-ios/CordovaLib/CordovaLib.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA87C462320499D00998492 /* libCordova.a in Frameworks */,
 				7EA87C3B2320491400998492 /* Foundation.framework in Frameworks */,
 				7EA87C392320490F00998492 /* UIKit.framework in Frameworks */,
 				7EA87C16232047A400998492 /* libBPRUIWebViewEngineTest.a in Frameworks */,
@@ -100,7 +98,7 @@
 		7EA87BDD232045CC00998492 = {
 			isa = PBXGroup;
 			children = (
-				7EA87C3D2320496700998492 /* CordovaLib.xcodeproj */,
+				7EA87C532320683A00998492 /* CordovaLib.xcodeproj */,
 				7EA87C2B2320488D00998492 /* BPRUIWebVIewEngineLib */,
 				7EA87C12232047A400998492 /* BPRUIWebViewEngineLibTests */,
 				7EA87BE7232045CC00998492 /* Products */,
@@ -159,11 +157,11 @@
 			name = BPRUIWebVIewEngineLib;
 			sourceTree = "<group>";
 		};
-		7EA87C3E2320496700998492 /* Products */ = {
+		7EA87C542320683A00998492 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EA87C432320496700998492 /* libCordova.a */,
-				7EA87C452320496700998492 /* Cordova.framework */,
+				7EA87C592320683A00998492 /* libCordova.a */,
+				7EA87C5B2320683A00998492 /* Cordova.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,8 +233,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7EA87C3E2320496700998492 /* Products */;
-					ProjectRef = 7EA87C3D2320496700998492 /* CordovaLib.xcodeproj */;
+					ProductGroup = 7EA87C542320683A00998492 /* Products */;
+					ProjectRef = 7EA87C532320683A00998492 /* CordovaLib.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -248,18 +246,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7EA87C432320496700998492 /* libCordova.a */ = {
+		7EA87C592320683A00998492 /* libCordova.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libCordova.a;
-			remoteRef = 7EA87C422320496700998492 /* PBXContainerItemProxy */;
+			remoteRef = 7EA87C582320683A00998492 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7EA87C452320496700998492 /* Cordova.framework */ = {
+		7EA87C5B2320683A00998492 /* Cordova.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Cordova.framework;
-			remoteRef = 7EA87C442320496700998492 /* PBXContainerItemProxy */;
+			remoteRef = 7EA87C5A2320683A00998492 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
